@@ -1,14 +1,16 @@
 # 声明： 此项目nodejs微信爬虫原地址为 https://github.com/lqqyt2423/wechat_spider
 本人在此基础：
-bug：
-1.修复循环爬取公众号死循环 
-2.替换正文的正则更新
-new：
-1.加入appium和python脚本， 利用redis作为通信设施， 达到python操作手机脚本 和 原nodejs 程序通信配合， 让整个爬虫全自动化运行
-ps:
+### bug：
+- 修复循环爬取公众号死循环 
+- 替换正文的正则更新
+
+### new：
+- 加入appium和python脚本， 利用redis作为通信设施， 达到python操作手机脚本 和 原nodejs 程序通信配合， 让整个爬虫全自动化运行
+
+### ps:
 本人不是很懂nodejs，原作者的bug，新加的功能都是很简单的代码，重点是实现思路，如果有问题或者bug，欢迎指正
 
-------以下为原作者readme------
+### ------以下为原作者readme------
 
 # wechat_spider 微信爬虫
 
